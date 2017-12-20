@@ -1,0 +1,1 @@
+brand1,1,1,cap=1=adidas=caps Department=red=5=0=x=20.0=3#;SumSung,0,2,j7=7=SumSung=phones=Golden=50=20=Nice_phone=4000.0=0#j6=6=SumSung=phones=black=80=30=4200=4200.0=0#;
