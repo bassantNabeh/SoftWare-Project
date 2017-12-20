@@ -68,7 +68,7 @@ public class TestingClass {
         Assert.assertEquals(true, system.validation(1,admin));
     }
  
-  /*  @Test
+    @Test
     public void AddProduct_to_System() {
         Assert.assertEquals(true, system.AddProduct_to_System((Admin) admin));
     }
@@ -86,13 +86,13 @@ public class TestingClass {
     @Test
     public void AddProduct_to_Store() {
         Assert.assertEquals(true, stor.AddProduct_to_Store((StoreOwner)owner));
-    }*/
+    }
     
-   @Test 
+  /* @Test 
     public void GetProductById() {
         
         Assert.assertEquals(p, stor.GetProductById(1));
-    }
+    }*/
     
     
     
