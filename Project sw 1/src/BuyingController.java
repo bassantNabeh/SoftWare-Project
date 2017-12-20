@@ -72,9 +72,7 @@ void AddToChart(Customer customer)
             totalPrice+=chart.get(i).price;
             totalPoints+=chart.get(i).points;
         }
-//          wallet.StoreMoney=(float) (totalPrice*.5);
-//          wallet.brandMoney=(float) (totalPrice*.5);
-//        
+     
         System.out.println("Do you want use your voucher ?!");
         System.out.println("       1- yes                2- no");
         
