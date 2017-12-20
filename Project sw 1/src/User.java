@@ -77,7 +77,7 @@ public class User {
                 D.Write_file(2, Users.get(i));
             }
             show_all_system(product_id);
-           // System.out.println("llllllllllllllllllllllllllllllllllllllllll");
+            // System.out.println("llllllllllllllllllllllllllllllllllllllllll");
         } else {
             System.out.println("Wrong id.");
         }
@@ -99,33 +99,31 @@ public class User {
             Brands.add((Brand) Brands1.get(i));
 
         }
-        
+
         for (int d = 0; d < Brands.size(); d++) {
-            
-                for (int i = 0; i < Brands.get(d).p.size(); i++) {
-                    // System.out.println(StoreOwners.get(d).Stores.get(j).p.get(i).count);
-                    if (Brands.get(d).p.get(i).id == id) {
-                        String fileName = "Brands.txt";
-                        File f = new File(fileName);
-                        f.delete();
-                        Brands.get(d).p.get(i).count++;
-                        for (int s = 0; s < Brands.size(); s++) {
-                            D.Write_file(3, Brands.get(s));
-                        }
-                        return;
+
+            for (int i = 0; i < Brands.get(d).p.size(); i++) {
+                // System.out.println(StoreOwners.get(d).Stores.get(j).p.get(i).count);
+                if (Brands.get(d).p.get(i).id == id) {
+                    String fileName = "Brands.txt";
+                    File f = new File(fileName);
+                    f.delete();
+                    Brands.get(d).p.get(i).count++;
+                    for (int s = 0; s < Brands.size(); s++) {
+                        D.Write_file(3, Brands.get(s));
                     }
+                    return;
                 }
-            
+            }
+
         }
-        
-        
 
         for (int i = 0; i < StoreOwners1.size(); i++) {
             StoreOwners.add((StoreOwner) StoreOwners1.get(i));
             //System.out.println("  here once.");
 
         }
-       // System.out.println("");
+        // System.out.println("");
         for (int d = 0; d < StoreOwners.size(); d++) {
             for (int j = 0; j < StoreOwners.get(d).Stores.size(); j++) {
                 //System.out.println("Store :" + StoreOwners.get(d).Stores.get(j).name);
